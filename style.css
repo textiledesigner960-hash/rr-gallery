@@ -1,0 +1,97 @@
+body{
+    background-color:black;
+    text-align:center;
+    font-family:Arial,sans-serif;
+}
+
+h1{
+    color:gold;
+    font-size:50px;
+}
+
+img{
+    width:350px;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+    margin:10px;
+    border:2px solid gold;
+}
+nav{
+    padding:20px;
+}
+
+nav a{
+    color:gold;
+    text-decoration:none;
+    margin:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:white;
+}
+p{
+    color:white;
+    font-size:22px;
+    margin-bottom:30px;
+}
+.logo{
+    width:120px;
+    height:auto;
+    border:none;
+    margin-top:20px;
+}
+.banner{
+    width:90%;
+    height:400px;
+    object-fit:cover;
+    border:none;
+    margin-bottom:30px;
+}
+
+p{
+    color:white;
+    font-size:22px;
+}
+h2{
+    color:gold;
+    margin-top:40px;
+}
+
+footer{
+    color:white;
+    margin-top:50px;
+    padding:20px;
+    border-top:1px solid gold;
+}
+.hero{
+height:600px;
+background-image:url('photo1.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero h1{
+color:white;
+font-size:60px;
+}
+
+.hero p{
+color:white;
+font-size:25px;
+}
+
+button{
+padding:15px 30px;
+font-size:20px;
+background:#00aaff;
+color:white;
+border:none;
+border-radius:5px;
+}
